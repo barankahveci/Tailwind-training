@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/output.css">
+
+</head>
+
+<body>
+
+    <main class="items-center flex peer h-[100vh] bg-pink-50 relative">
+        <article class="bg-white w-[60%] ml-[30vh] rounded-xl h-[80%] p-20  ">
+            <section class="border-b ">
+                <div class="flex item-ce">
+                    <h1 class="font-bold text-3xl text-purple-600">Settings</h1>
+                    <div class="ml-auto flex flex-col items-center text-gray-400 cursor-pointer">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        <span>Close</span>
+                    </div>
+                </div>
+                <h2 class="font-bold text-1xl text-purple-600 mt-10">Language</h2>
+                <p class="mt-5">
+                    Let us know which language you're most comfortable using. You <br>
+                    can change it back at any time.
+                </p>
+                <select class="mt-7 w-4/12 pl-3 h-10 mb-10 outline-none  border-2 border-gray-200 rounded" name="Diller" id="Diller">
+                    <option value="English">English</option>
+                    <option value="Turkish">Turkish</option>
+                    <option value="Arabish">Arabish</option>
+                </select>
+            </section>
+            <section class="mt-10">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <h1 class="mb-5 font-bold text-1xl text-purple-600 mt-10">Autoplay videos</h1>
+                        <p>Choose if you want to autoplay on your browser</p>
+                    </div>
+                    <label>
+                        <input class="hidden peer " type="checkbox" name="" id="" checked>
+                        <span class=" cursor-pointer kayanyuvarlak"></span>
+                    </label>
+                </div>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <h1 class="mb-5 font-bold text-1xl text-purple-600 mt-10">Show profile photos</h1>
+                        <p>Choose whether to show or hide profile photos of other members.</p>
+                    </div>
+                    <label>
+                        <input class="hidden peer " type="checkbox" name="" id="">
+                        <span class=" cursor-pointer kayanyuvarlak peer-checked:before:bg-red-600 "></span>
+                    </label>
+                </div>
+                <div class="mt-10 flex gap-x-5">
+                    <button class="p-4 px-16 rounded-md text-white font-bold bg-pink-500 hover:bg-black hover:text-white hover:transition-colors transition-colors hover:duration-300 duration-300">Save</button>
+                    <button class="p-4 px-14 rounded-md text-black font-bold border">Cancel</button>
+                </div>
+            </section>
+
+        </article>
+    </main>
+    
+</body>
+
+</html>

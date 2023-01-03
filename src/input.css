@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .kayanyuvarlak{
+        @apply w-16 relative rounded-full h-10 border block before:w-7 before:h-7 before:top-[0.3rem] before:left-1 before:bg-gray-700 before:rounded-full before:absolute peer-checked:before:bg-purple-600 peer-checked:before:left-7 peer-checked:before:transition-all peer-checked:before:duration-300 duration-300 transition-all   
+    }
+
+}
